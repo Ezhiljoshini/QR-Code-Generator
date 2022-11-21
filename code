@@ -1,0 +1,15 @@
+# PIP INSTALL QRCODE
+import qrcode
+import matplotlib.pyplot as plt
+
+#ADD data which you want to be QR Representation
+data = "https://github.com/Ezhiljoshini"
+
+#Output file name
+filename = "My QR Code"
+
+image = qrcode.make(data)
+
+#save image in to the file
+image.save(filename)
+plt.imshow(image,cmap="gray");
