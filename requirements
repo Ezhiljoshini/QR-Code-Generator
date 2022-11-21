@@ -1,0 +1,4 @@
+pip install qr code
+Importing the modules.
+Taking the input of the text/URL, location to store the QR code, name of the QR code and the size of the QR code.
+Writing the function to generate and save the QR Code.
